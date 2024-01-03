@@ -1,0 +1,124 @@
+       /* index.css */
+
+        /* Styles for the main container */
+        .main {
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 20px;
+          font-family: Arial, Helvetica, sans-serif;
+      }
+
+      /* Styles for the heading */
+      h1 {
+          text-align: center;
+          margin-bottom: 20px;
+      }
+
+      /* Styles for the search form */
+      form {
+          margin-bottom: 20px;
+      }
+
+      label {
+          font-weight: bold;
+      }
+
+      input[type="text"] {
+          width: 200px;
+          padding: 5px;
+          border: 1px solid #ccc;
+      }
+
+      button[type="submit"] {
+          padding: 5px 10px;
+          background-color: #4caf50;
+          color: #fff;
+          border: none;
+          cursor: pointer;
+      }
+
+      .container-img {
+          list-style-type: none;
+          padding: 0;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: center;
+      }
+
+      .list-img {
+          width: calc(50% - 10px);
+          /* Set the width of each list item to occupy 50% of the container minus margins */
+          margin-bottom: 20px;
+      }
+
+      img {
+          display: block;
+          margin-bottom: 10px;
+          width: 300px;
+          /* Set a fixed width */
+          height: 300px;
+          /* Set a fixed height */
+          object-fit: cover;
+          /* Ensure the image fills the container */
+      }
+
+      p {
+          margin: 5px 0;
+      }
+
+      a {
+          color: #4caf50;
+      }
+
+      .upload-status {
+          margin-top: 20px;
+          padding: 10px;
+          border: 1px solid #85fc56;
+          background-color: #c0ffb0;
+      }
+
+      .folder-list ul {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          padding: 0;
+          margin: 0 auto;
+      }
+
+      .default {
+          list-style-type: none;
+          margin-bottom: 10px;
+          background-color: #c0ffb0;
+          border: 1px solid #85fc56;
+          padding: 5px 10px;
+          margin-right: 10px;
+      }
+
+      .active {
+          background-color: #85fc56;
+          color: #fff;
+          padding: 5px 10px;
+          margin-right: 10px;
+          list-style-type: none;
+          margin-bottom: 10px;
+      }
+
+      .folder-list li a {
+          color: #4caf50;
+      }
+
+
+      .row {
+          display: flex;
+      }
+
+      .row h3 {
+          display: flex;
+          margin-right: 20px;
+      }
+
+      .blue {
+          color: blue;
+          margin: 0 5px;
+      }
